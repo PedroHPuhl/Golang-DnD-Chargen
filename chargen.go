@@ -27,7 +27,7 @@ func statdice() int {
 		return diceArray[:][i] > diceArray[:][j]
 	})
 
-	//Aqui iniciamos e damos valor para o newDiceArray igual ao diceArray menos o ultimo valor(numero menor) 
+	//Aqui iniciamos e damos valor para o newDiceArray com valor igual ao diceArray menos o ultimo valor(numero menor) 
 	var newDiceArray = diceArray[:len(diceArray)-1]
 
 	//Inicializamos o valor final diceSum somente no final
